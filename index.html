@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Paper-II</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .options {
+            margin-left: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            width: 60%;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./header.png" alt="headerImg" />
+    <h1>PAPER II</h1>
+
+    <form action="#" method="post">
+
+        <!-- Python (6 Questions) -->
+        <div class="question">
+            <p>1. What is the primary purpose of Python?</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="Web development"> Web development</label><br>
+                <label><input type="radio" name="q1" value="System programming"> System programming</label><br>
+                <label><input type="radio" name="q1" value="Data science"> Data science</label><br>
+                <label><input type="radio" name="q1" value="General-purpose"> General-purpose</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>2. Which of the following is a valid Python variable name?</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="1variable"> 1variable</label><br>
+                <label><input type="radio" name="q2" value="variable_1"> variable_1</label><br>
+                <label><input type="radio" name="q2" value="@variable"> @variable</label><br>
+                <label><input type="radio" name="q2" value="var iable"> var iable</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>3. Which keyword is used to define a function in Python?</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="func"> func</label><br>
+                <label><input type="radio" name="q3" value="def"> def</label><br>
+                <label><input type="radio" name="q3" value="function"> function</label><br>
+                <label><input type="radio" name="q3" value="lambda"> lambda</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>4. What is the result of len("Python")?</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="5"> 5</label><br>
+                <label><input type="radio" name="q4" value="6"> 6</label><br>
+                <label><input type="radio" name="q4" value="7"> 7</label><br>
+                <label><input type="radio" name="q4" value="Error"> Error</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>5. What does the `pass` statement do?</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="Skips a loop"> Skips a loop</label><br>
+                <label><input type="radio" name="q5" value="Ends program"> Ends program</label><br>
+                <label><input type="radio" name="q5" value="Placeholder"> Placeholder</label><br>
+                <label><input type="radio" name="q5" value="Raise error"> Raise error</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>6. What is the result of 3 ** 2?</p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="6"> 6</label><br>
+                <label><input type="radio" name="q6" value="9"> 9</label><br>
+                <label><input type="radio" name="q6" value="8"> 8</label><br>
+                <label><input type="radio" name="q6" value="Error"> Error</label><br>
+            </div>
+        </div>
+
+        <!-- NumPy (4 Questions) -->
+        <div class="question">
+            <p>7. What does np.zeros((2,2)) return?</p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="Array of zeros"> Array of zeros</label><br>
+                <label><input type="radio" name="q7" value="Error"> Error</label><br>
+                <label><input type="radio" name="q7" value="Empty array"> Empty array</label><br>
+                <label><input type="radio" name="q7" value="Ones"> Ones</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>8. Which function creates an array of evenly spaced values?</p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="np.linspace"> np.linspace</label><br>
+                <label><input type="radio" name="q8" value="np.fill"> np.fill</label><br>
+                <label><input type="radio" name="q8" value="np.repeat"> np.repeat</label><br>
+                <label><input type="radio" name="q8" value="np.stack"> np.stack</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>9. How do you find the shape of a NumPy array?</p>
+            <div class="options">
+                <label><input type="radio" name="q9" value="arr.length"> arr.length</label><br>
+                <label><input type="radio" name="q9" value="arr.shape"> arr.shape</label><br>
+                <label><input type="radio" name="q9" value="arr.size"> arr.size</label><br>
+                <label><input type="radio" name="q9" value="shape(arr)"> shape(arr)</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>10. Which NumPy function returns a range of values?</p>
+            <div class="options">
+                <label><input type="radio" name="q10" value="arange"> np.arange</label><br>
+                <label><input type="radio" name="q10" value="range"> np.range</label><br>
+                <label><input type="radio" name="q10" value="np.step"> np.step</label><br>
+                <label><input type="radio" name="q10" value="np.series"> np.series</label><br>
+            </div>
+        </div>
+
+        <!-- Pandas (4 Questions) -->
+        <div class="question">
+            <p>11. What is a Pandas DataFrame?</p>
+            <div class="options">
+                <label><input type="radio" name="q11" value="Table-like 2D data"> Table-like 2D data</label><br>
+                <label><input type="radio" name="q11" value="List of lists"> List of lists</label><br>
+                <label><input type="radio" name="q11" value="Dictionary"> Dictionary</label><br>
+                <label><input type="radio" name="q11" value="Array"> Array</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>12. Which method shows the first 5 rows of a DataFrame?</p>
+            <div class="options">
+                <label><input type="radio" name="q12" value="df.first()"> df.first()</label><br>
+                <label><input type="radio" name="q12" value="df.show()"> df.show()</label><br>
+                <label><input type="radio" name="q12" value="df.head()"> df.head()</label><br>
+                <label><input type="radio" name="q12" value="df.start()"> df.start()</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>13. What does df.dropna() do?</p>
+            <div class="options">
+                <label><input type="radio" name="q13" value="Drops all columns"> Drops all columns</label><br>
+                <label><input type="radio" name="q13" value="Fills NA with 0"> Fills NA with 0</label><br>
+                <label><input type="radio" name="q13" value="Removes null rows"> Removes null rows</label><br>
+                <label><input type="radio" name="q13" value="Sorts rows"> Sorts rows</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>14. Which method returns the summary statistics?</p>
+            <div class="options">
+                <label><input type="radio" name="q14" value="describe()"> describe()</label><br>
+                <label><input type="radio" name="q14" value="info()"> info()</label><br>
+                <label><input type="radio" name="q14" value="summary()"> summary()</label><br>
+                <label><input type="radio" name="q14" value="stats()"> stats()</label><br>
+            </div>
+        </div>
+
+        <!-- SciPy (4 Questions) -->
+        <div class="question">
+            <p>15. What is scipy.integrate.quad() used for?</p>
+            <div class="options">
+                <label><input type="radio" name="q15" value="Differentiation"> Differentiation</label><br>
+                <label><input type="radio" name="q15" value="Integration"> Integration</label><br>
+                <label><input type="radio" name="q15" value="Statistics"> Statistics</label><br>
+                <label><input type="radio" name="q15" value="Algebra"> Algebra</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>16. What does scipy.linalg.inv() compute?</p>
+            <div class="options">
+                <label><input type="radio" name="q16" value="Transpose"> Transpose</label><br>
+                <label><input type="radio" name="q16" value="Determinant"> Determinant</label><br>
+                <label><input type="radio" name="q16" value="Inverse"> Inverse</label><br>
+                <label><input type="radio" name="q16" value="Mean"> Mean</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>17. What is scipy.stats.norm.mean used for?</p>
+            <div class="options">
+                <label><input type="radio" name="q17" value="Calculates mean"> Calculates mean</label><br>
+                <label><input type="radio" name="q17" value="Variance"> Variance</label><br>
+                <label><input type="radio" name="q17" value="PDF"> PDF</label><br>
+                <label><input type="radio" name="q17" value="Mode"> Mode</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>18. What does scipy.spatial.distance.euclidean() calculate?</p>
+            <div class="options">
+                <label><input type="radio" name="q18" value="Euclidean"> Euclidean</label><br>
+                <label><input type="radio" name="q18" value="Cosine"> Cosine</label><br>
+                <label><input type="radio" name="q18" value="Hamming"> Hamming</label><br>
+                <label><input type="radio" name="q18" value="Jaccard"> Jaccard</label><br>
+            </div>
+        </div>
+
+        <!-- Django (4 Questions) -->
+        <div class="question">
+            <p>19. What does Django’s render() function do?</p>
+            <div class="options">
+                <label><input type="radio" name="q19" value="Load templates"> Load templates</label><br>
+                <label><input type="radio" name="q19" value="Render HTML with context"> Render HTML with context</label><br>
+                <label><input type="radio" name="q19" value="Create DB"> Create DB</label><br>
+                <label><input type="radio" name="q19" value="Handle static files"> Handle static files</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>20. Which file handles URL routing in Django?</p>
+            <div class="options">
+                <label><input type="radio" name="q20" value="urls.py"> urls.py</label><br>
+                <label><input type="radio" name="q20" value="views.py"> views.py</label><br>
+                <label><input type="radio" name="q20" value="models.py"> models.py</label><br>
+                <label><input type="radio" name="q20" value="routes.py"> routes.py</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>21. How do you create a new Django app?</p>
+            <div class="options">
+                <label><input type="radio" name="q21" value="startapp"> python manage.py startapp</label><br>
+                <label><input type="radio" name="q21" value="createapp"> django-admin createapp</label><br>
+                <label><input type="radio" name="q21" value="makeapp"> make app</label><br>
+                <label><input type="radio" name="q21" value="initapp"> init app</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>22. What is a Django model?</p>
+            <div class="options">
+                <label><input type="radio" name="q22" value="Defines database structure"> Defines database structure</label><br>
+                <label><input type="radio" name="q22" value="Defines routes"> Defines routes</label><br>
+                <label><input type="radio" name="q22" value="Handles views"> Handles views</label><br>
+                <label><input type="radio" name="q22" value="CSS file"> CSS file</label><br>
+            </div>
+        </div>
+
+        <!-- SQL (4 Questions) -->
+        <div class="question">
+            <p>23. Which SQL command retrieves data?</p>
+            <div class="options">
+                <label><input type="radio" name="q23" value="SELECT"> SELECT</label><br>
+                <label><input type="radio" name="q23" value="GET"> GET</label><br>
+                <label><input type="radio" name="q23" value="FETCH"> FETCH</label><br>
+                <label><input type="radio" name="q23" value="TAKE"> TAKE</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>24. What does WHERE clause do?</p>
+            <div class="options">
+                <label><input type="radio" name="q24" value="Filters rows"> Filters rows</label><br>
+                <label><input type="radio" name="q24" value="Joins tables"> Joins tables</label><br>
+                <label><input type="radio" name="q24" value="Groups data"> Groups data</label><br>
+                <label><input type="radio" name="q24" value="Sorts rows"> Sorts rows</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>25. Which keyword is used to change table structure?</p>
+            <div class="options">
+                <label><input type="radio" name="q25" value="ALTER"> ALTER</label><br>
+                <label><input type="radio" name="q25" value="MODIFY"> MODIFY</label><br>
+                <label><input type="radio" name="q25" value="UPDATE"> UPDATE</label><br>
+                <label><input type="radio" name="q25" value="SET"> SET</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>26. Which function returns current date in MySQL?</p>
+            <div class="options">
+                <label><input type="radio" name="q26" value="NOW()"> NOW()</label><br>
+                <label><input type="radio" name="q26" value="CURRENT()"> CURRENT()</label><br>
+                <label><input type="radio" name="q26" value="TIME()"> TIME()</label><br>
+                <label><input type="radio" name="q26" value="TODAY()"> TODAY()</label><br>
+            </div>
+        </div>
+
+        <!-- HTML (2 Questions) -->
+        <div class="question">
+            <p>27. Which tag defines a hyperlink in HTML?</p>
+            <div class="options">
+                <label><input type="radio" name="q27" value="&lt;a&gt;"> &lt;a&gt;</label><br>
+                <label><input type="radio" name="q27" value="&lt;link&gt;"> &lt;link&gt;</label><br>
+                <label><input type="radio" name="q27" value="&lt;href&gt;"> &lt;href&gt;</label><br>
+                <label><input type="radio" name="q27" value="&lt;url&gt;"> &lt;url&gt;</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>28. What is the correct HTML for inserting an image?</p>
+            <div class="options">
+                <label><input type="radio" name="q28" value="&lt;image&gt;"> &lt;image&gt;</label><br>
+                <label><input type="radio" name="q28" value="&lt;img src='img.jpg'&gt;"> &lt;img src="img.jpg"&gt;</label><br>
+                <label><input type="radio" name="q28" value="&lt;img link&gt;"> &lt;img link&gt;</label><br>
+                <label><input type="radio" name="q28" value="&lt;pic&gt;"> &lt;pic&gt;</label><br>
+            </div>
+        </div>
+
+        <!-- CSS (2 Questions) -->
+        <div class="question">
+            <p>29. Which property sets the background color in CSS?</p>
+            <div class="options">
+                <label><input type="radio" name="q29" value="bg-color"> bg-color</label><br>
+                <label><input type="radio" name="q29" value="background"> background</label><br>
+                <label><input type="radio" name="q29" value="background-color"> background-color</label><br>
+                <label><input type="radio" name="q29" value="color"> color</label><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>30. How do you make text bold in CSS?</p>
+            <div class="options">
+                <label><input type="radio" name="q30" value="font-weight: bold;"> font-weight: bold;</label><br>
+                <label><input type="radio" name="q30" value="bold: true;"> bold: true;</label><br>
+                <label><input type="radio" name="q30" value="font: bold;"> font: bold;</label><br>
+                <label><input type="radio" name="q30" value="text-bold: yes;"> text-bold: yes;</label><br>
+            </div>
+        </div>
+
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
